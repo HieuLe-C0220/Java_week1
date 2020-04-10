@@ -8,7 +8,7 @@ public class hienthi20SNT {
         num = input.nextInt();
         int count = 0;
         int N = 2;
-        while (count<=num) {
+        while (count<num) {
             if (isPrime(N)) {
                 System.out.println(N);
                 count++;
